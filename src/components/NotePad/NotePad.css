@@ -1,0 +1,129 @@
+.main-cont{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.card-cont{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    @media screen and (min-width:768px){
+        width: 80%;
+        max-width: 1200px;
+    }
+}
+.heading{
+  text-align: center;
+  color: #8d1d5c;
+  font-family: 'Bree Serif';
+  font-size: 27px;
+  font-weight: bold;
+  font-weight: normal;
+  margin: 0%;
+  line-height: 1.33;
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    margin-top: 30px;
+    padding: 16px;
+    box-shadow: 0px 4px 14px #c8aac8;
+    @media screen and (min-width: 768px) {
+      margin-top: 50px;
+      padding: 24px;
+    }
+}
+.input{
+    color: #694759;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    line-height: 1.33;
+}
+.textarea{
+    color: #3b1e32;
+    font-family: 'Roboto';
+    font-size: 16px;
+    border: none;
+    margin-top: 32px;
+    outline: none;
+    line-height: 1.5;
+}
+.btn{
+    color: #ffffff;
+    background-color: #b64c93;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    padding: 12px 24px;
+    align-self: flex-end;
+    cursor: pointer;
+    outline: none;
+    line-height: 1.33;
+    @media screen and (min-width: 768px) {
+      margin-right: 24px;
+    }
+}
+.empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin: 30px;
+}
+.img{
+    width: 80px;
+    @media screen and (min-width: 768px) {
+      width: 141px;
+    }
+}
+.note-head{
+    color: #69475c;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-bottom: 4px;
+    line-height: 1.5;
+    @media screen and (min-width: 768px) {
+      font-size: 24px;
+    }
+}
+.descri{
+    color: #694759;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin: 0;
+    margin-top: 4px;
+    line-height: 1.33;
+    @media screen and (min-width: 768px) {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    padding-left: 0;
+    list-style-type: none;
+    @media screen and (min-width: 768px) {
+      margin-top: 32px;
+    }
+}
